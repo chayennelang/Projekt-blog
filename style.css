@@ -1,0 +1,111 @@
+.logoscreen{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(238, 202, 167);
+}
+
+.hw{
+    text-align: center;
+}
+
+
+
+
+
+.carousel-container {
+    position: relative;
+    width: 40%; 
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.news-item {
+    flex: 0 0 100%;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+
+
+.carousel-container:hover .text-overlay {
+    opacity: 1;
+}
+
+.carousel-container {
+    border: 4px solid black;
+    border-radius: 12px;
+    position: relative;
+    width: 45%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.news-item {
+    flex: 0 0 100%;
+    position: relative;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+button.prev, button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 1;
+    font-size: 40px; 
+    color: #ffd717; 
+}
+
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+
+.picskatze{
+    width: 205px;
+}
